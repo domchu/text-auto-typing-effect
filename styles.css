@@ -25,18 +25,24 @@ body {
 
 .container h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 span {
   color: #fff724;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 700px) {
-  span {
+  .container span {
     font-size: 2.5rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    color: #1098e6;
+  }
+  .container h1 {
+    color: #fff724;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
